@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="\static\style.css">
+    <script src="\static\query.js"></script>
+
+    <h1 align="center">Broker's Tag Cloud</h1>
+</head>
+<body>
+
+<div id="my_wrapper">
+
+  <div class="cloud">
+    <ul id="tc">
+
+    </ul>
+  
+  </div>
+
+
+<center><div id="loader1"></div> </center><br>
+
+<div class="data" align="center"> 
+
+  <center>
+    <td>Your ticker </td><td><input id="StockTicker"></td>
+  </center>   
+  <br>
+  <label>CNBC</label><input  type="checkbox" value="CNBC"><br>
+  <br>
+  <label>CNN</label><input  type="checkbox" value="CNBC"><br>
+  <br>
+  <label>YAHOO Finance</label><input  type="checkbox" value="CNBC"><br>
+  <br>
+
+
+  <button class="button" onclick="createCloud();">Get your cloud</button>
+</div>
+</div>
+
+</body>
+</html>
+
